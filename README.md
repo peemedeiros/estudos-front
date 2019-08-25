@@ -1,1 +1,1 @@
-Projetos realizados apenas estudar HTML e CSS.
+Projetos realizados apenas para estudar HTML e CSS.
