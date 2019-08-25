@@ -1,0 +1,540 @@
+<!--O projeto teve como objetivo coletar todas as informações que 
+um dos alunos do curso Técnico de Redes desejava para a criação
+de um site. Uma simulação de uma negociação real entre cliente
+e desenvolvedor.-->
+
+<html>
+    <head>
+        <title>
+            Hallo Deutschland
+        </title>
+        <link rel="icon" href="images/icon/germany-icon.png">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style_turismo.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/ancora.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/scroll.js"></script>
+        
+    </head>
+    <body>
+        <div class="background">
+            <div class="main-container">
+                <header id="cabecalho">
+                <div class="container_head">
+                    <img id="logo" src="images/germany.png" alt="Germany_logo">
+                    <h1 class="titulo_cabecalho">
+                        Hallo Deutschland
+                    </h1>
+
+                </div>
+
+                <nav id="menu_cont">
+                    <ul class="menu">
+                        <li class="menu_itens">
+                            <a href="index.html">
+                                <div class="link">
+                                    HISTÓRIA
+                                </div>
+                            </a>
+                            <div class="submenu">
+                                <a href="index.html">
+                                    <a href="index.html">
+                                        <div class="submenuitem">Origem</div>
+                                    </a>    
+                                </a>
+                                <a href="index.html">
+                                    <div class="submenuitem">Unificação</div>
+                                </a>
+                                <a href="index.html">
+                                    <div class="submenuitem">Primeira Guerra</div>
+                                </a>
+                                <a href="index.html">
+                                    <div class="submenuitem">Segunda Guerra</div>
+                                </a>
+                                <a href="index.html">
+                                    <div class="submenuitem">Muro de Berlim</div>
+                                </a>
+                                <a href="index.html">
+                                    <div class="submenuitem">Pós Guerra</div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="menu_itens">
+                            <a href="turismo.html">
+                                <div class="link">
+                                    TURISMO
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu_itens">
+                            <a href="futebol.html">
+                                <div class="link">
+                                    FUTEBOL
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            </div>
+            
+            <!-- Slider -->
+            <div class="main-container"> 
+                <section id="corpo_slider">
+                    <div class="slideshow" id="slideshow">
+                        <div class="slide_selection">
+                            <div class="selector" onclick="MudarSlide(0)"></div>
+                            <div class="selector" onclick="MudarSlide(1)"></div>
+                            <div class="selector" onclick="MudarSlide(2)"></div>
+                            <div class="selector" onclick="MudarSlide(3)"></div>
+                        </div>
+                        <div class="slideshowarea">
+                            
+                            <div class="slide" style="background-image:url('images/turismo1.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Heidelberg</div>
+                                </div>	
+                            </div>
+
+
+                            <div class="slide" style="background-image:url('images/turismo2.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Muro de Berlim</div>
+                                </div>	
+                            </div>
+
+
+                            <div class="slide" style="background-image:url('images/turismo3.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Annaberg-Buchholz</div>
+                                </div>	
+                            </div>
+
+
+                            <div class="slide" style="background-image:url('images/turismo4.jpg') ">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Brandenburg Gate</div>
+                                </div>	
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+                <!-- Parte dos conteúdos da história -->
+                <section id="geral_turismo">
+                    <a href="#cabecalho">
+                        <div id="seta">
+                            <img src="images/icon/up-arrow.png" alt="up-arrow">
+                        </div>
+                    </a>
+                    <div class="flutuante">
+                        <h3>Faça seu comentário: </h3>
+                        
+                        <img src="images/icon/chat.png" alt="chat-icon">
+                        
+                        <div class="chat">
+                            <textarea class="textarea" placeholder="Sugestões, críticas, comentários...">
+
+                            </textarea>
+                            <button class="botao">Enviar</button>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="titulo">
+                        <h1>bem vindo à Alemanha!</h1>
+                    </div>
+
+                    <div class="corpo_origem">
+                       
+                        <div class="bemvindoimg">
+                            
+                        </div>
+                        <div class="texto_origem2">
+                            <p class="textos">
+                                De olho no roteiro pela Europa e em busca de dicas de turismo na Alemanha? Neste post, você vai encontrar sugestões de destinos que vão além da capital, Berlim, e um pequeno guia sobre os costumes locais, expressões em alemão, necessidade de seguro de viagem e muito mais.
+                            </p>
+                            <p class="textos">
+                                Se a Alemanha é o seu próximo destino de viagem, este texto é especialmente dedicado a você. 
+                            </p>
+                            <p class="textos">
+                                O país unificado por Bismarck mais de cem anos atrás é o bastião econômico da Europa e uma das figuras centrais da história dos últimos dois séculos.
+                            </p>
+                            <p class="textos">
+                                Por isso, não dá  pra ficar apenas na capital e não dá para desembarcar sem um bom roteiro.
+                            </p>  
+                        </div>
+                    </div>
+
+                    <div class="titulo">
+                        <h1 id="unificacao">Dicas de turismo: 7 destinos além de Berlim</h1>
+                    </div>
+                    <div class="corpo_turismo">
+                        
+                        <div class="turismo_cont">
+                            <div class="conteudo1">
+                                <p class="textos">
+                                    A capital do país, Berlim, é visita obrigatória.
+
+                                    É o palco de grandes acontecimentos da história contemporânea e possui inúmeros museus, galerias de arte e uma vibrante vida noturna.
+
+                                    Mas você não deve limitar seu roteiro pela Alemanha desse jeito.
+
+                                    Há muitos destinos lindos, históricos e cheios de cultura (e cerveja) esperando a sua visita.
+
+                                    Para facilitar a sua vida e fazer uma viagem completa, listamos as principais cidades turísticas além da capital que você não se arrependerá de conhecer.
+                                </p>
+                            </div>
+                            <div class="conteudo1">
+                                <img src="images/alemanha1.png" alt="alemanha1">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+                
+                
+                <section id="lugares">
+                    <div class="cont_lugares">
+                        <div class="image-section">
+                            <div class="fundo">
+                                <div class="titulo-animado">
+                                    MUNIQUE
+                                </div>
+                                <div class="info">
+                                    <img src="images/icon/info.png" alt="info">
+                                    <div class="mais-info">
+                                        <p>
+                                            Famosa por suas inúmeras cervejarias e por ser a cidade da Oktoberfest, uma das festas mais famosas do mundo. Tal como Berlim, Munique também possui vários museus, galerias e uma ativa vida noturna. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+            
+                <section id="lugares">
+                    <div class="cont_lugares">
+                        <div class="image-section2">
+                            <div class="fundo">
+                                <div class="titulo-animado">
+                                    FRANKFURT
+                                </div>
+                                <div class="info">
+                                    <img src="images/icon/info.png" alt="info">
+                                    <div class="mais-info">
+                                        <p>
+                                            Uma cidade para quem gosta de metrópoles modernas e grandes arranha-céus. Frankfurt é uma metrópole grande e populosa, sede de muitas empresas importantes e um dos principais pólos econômicos e financeiros da Europa.  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+            
+                <section id="lugares">
+                    <div class="cont_lugares">
+                        <div class="image-section3">
+                            <div class="fundo">
+                                <div class="titulo-animado">
+                                    DRESDEN
+                                </div>
+                                <div class="info">
+                                    <img src="images/icon/info.png" alt="info">
+                                    <div class="mais-info">
+                                        <p>
+                                            Este é um dos destinos mais visitados na Alemanha. A cidade foi completamente destruída na Segunda Guerra, mas foi também reconstruída e sua arquitetura barroca, herança do auge do Império Saxônico, do qual a cidade foi capital, foi restaurada e é uma das grandes atrações locais. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="lugares">
+                    <div class="cont_lugares">
+                        <div class="image-section4">
+                            <div class="fundo">
+                                <div class="titulo-animado">
+                                    HEIDELBERG
+                                </div>
+                                <div class="info">
+                                    <img src="images/icon/info.png" alt="info">
+                                    <div class="mais-info">
+                                        <p>
+                                           Uma cidade que pode ser visitada a partir de Frankfurt, Heidelberg é um destino para quem gosta de uma passeio mais tranquilo. Possui um centro histórico incrivelmente preservado e alguns dos castelos medievais mais interessantes do país, como o Schloss Heidelberg (Castelo de Heidelberg). 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <section id="lugares">
+                    <div class="cont_lugares">
+                        <div class="image-section5">
+                            <div class="fundo">
+                                <div class="titulo-animado">
+                                   NUREMBERG
+                                </div>
+                                <div class="info">
+                                    <img src="images/icon/info.png" alt="info">
+                                    <div class="mais-info">
+                                        <p>
+                                           É a cidade do famoso tribunal que já deu filmes ao cinema e marcou o fim da Segunda Guerra Mundial. São inúmeras atrações e merece alguns dias a mais de permanência. 
+                                        </p>
+                                        <p>
+                                            Tal como Heidelberg, também tem um castelo homônimo da cidade, o Castelo de Nuremberg. Conta com um famoso e grande zoológico e várias atrações históricas. O memorial do julgamento de Nuremberg é um dos destaques para conhecer na cidade. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <section id="lugares">
+                    <div class="cont_lugares">
+                        <div class="image-section6">
+                            <div class="fundo">
+                                <div class="titulo-animado">
+                                   COLÔNIA
+                                </div>
+                                <div class="info">
+                                    <img src="images/icon/info.png" alt="info">
+                                    <div class="mais-info">
+                                        <p>
+                                           Colônia está às margens do rio Reno, um dos mais importantes da Europa. Lá você pode fazer um dos ótimos passeios pelo rio e visitar a Catedral de Colônia, uma das mais famosas e importantes da Europa. A cerveja da cidade, a Kölsch, tem renome nacional e não deve ser esquecida quando você passar por lá.
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <section id="lugares">
+                    <div class="cont_lugares">
+                        <div class="image-section7">
+                            <div class="fundo">
+                                <div class="titulo-animado">
+                                   INTERIOR DA BAVIERA
+                                </div>
+                                <div class="info">
+                                    <img src="images/icon/info.png" alt="info">
+                                    <div class="mais-info">
+                                        <p>
+                                           Não é uma cidade, e sim um dos estados da Alemanha. A capital da região da Baviera é Munique, mas o que ressaltamos aqui é o interior do estado. 
+                                        </p>
+                                         <p>
+                                           Circundada por pequenos vilarejos tradicionais e casinhas coloridas ao melhor estilo tradicional do interior alemão, a região da Baviera também compensa uma breve visita. Como você vai ir para Munique, incluir alguns dos vilarejos do interior torna-se uma extensão natural do roteiro.
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+            
+                <div class="main-container">
+                    <section id="geral_turimo2">
+                        <div class="titulo">
+                            <h1>Documentos por favor...</h1>
+                        </div>
+
+                        <div class="titulo">
+                            <h1 id="unificacao">Preciso de visto?</h1>
+                        </div>
+                        <div class="corpo_turismo">
+
+                            <div class="turismo_cont">
+                                <div class="conteudo1">
+                                    
+                                    <img id="turism-img"src="images/icon/tourism-png-4.png" alt="tourism4">
+                                </div>
+                                <div class="conteudo1">
+                                    <p class="textos">
+                                        Como a Alemanha faz parte do Tratado de Schengen, nós brasileiros não precisamos de visto para viagens de até 90 dias. No entanto é necessário seguro de viagem e também ter passaporte com validade por 6 meses após a entrada.
+                                    </p>
+                                    <p class="textos">
+                                        Tenha em mãos os contatos da embaixada brasileira em Berlim e antes de viajar, verifique se houve atualizações nos requisitos de entrada em alguma das representações diplomáticas alemãs no Brasil
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>   
+                    </section>
+                        <div class="titulo">
+                            <h1>Costumes e Cultura local</h1>
+                        </div>
+                        <section id="costumes-alemanha">
+                            
+                            <div class="cultura-cerveijeira">
+                                    <h2> Costumes </h2>
+                                    <p class="textos">
+                                        Sempre que viajamos para outro lugar, é preciso que tomemos cuidado e respeitemos os costumes e tradições locais. Com os alemães não é diferente. Fique atento aos seguintes costumes comportamentais:
+                                    </p>
+                                    <ul class="costumes-list">
+                                        <li>
+                                            Siga as regras, seja na hora de atravessar a rua ou respeitar os sinais de trânsito. As pequenas regras do dia-a-dia são levadas a sério por lá e desrespeitá-las pode custar uma multa nada palatável.
+                                        </li>
+                                        <li>
+                                            A pontualidade alemã é tão ou mais rigorosa que a britânica, portanto, se esforce para chegar aos compromissos sempre com antecedência;
+                                        </li>
+                                        <li>
+                                            O povo alemão é muito franco e direto, trata-se de um traço cultural como qualquer outro e muito marcante. Caso algum habitante local seja direto e abra o jogo com você sobre alguma coisa, entenda que é a forma natural de se relacionar naquele país.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="cultura-cerveijeira">
+                                    <h2> Vai um goró ai? </h2>
+                                    <p class="textos">
+                                        A Alemanha tem uma intensa cultura e tradição cervejeira. Não deixe de experimentar os rótulos locais e os diferentes tipos de cerveja que podem ser encontrados. Cerveja em alemão é “Bier”, pronuncia-se mais como “Biar”, fazendo o “e” bem aberto, quase virando um “a” mesmo. Na mesa com os amigos, não deixe de falar o “Prost!” (Saúde), a saudação alemã ao brindar com os amigos.
+                                    </p>
+                                    <img class="prost" src="images/prost.jpg" alt="prost">
+                                </div>
+                        </section>
+                </div>
+            <div class="titulo">
+                            <h1>Locais históricos</h1>
+            </div>
+            <section id="lugares">
+                    <div class="cont_lugares">
+                        <div class="image-section8">
+                            <div class="fundo">
+                                <div class="titulo-animado">
+                                   LEIPZIG
+                                </div>
+                                <div class="info">
+                                    <img src="images/icon/info.png" alt="info">
+                                    <div class="mais-info">
+                                        <p>
+                                           Leipzig é uma cidade que fica no Leste da Alemanha, numa zona que antes da queda do Muro de Berlim  fazia parte da RDA (República Democrática da Alemanha). Na realidade foi em Leipzig que se iniciou a revolta contra o regime comunista que, sob apertado controle da União Soviética, governava aquele país criado na sequência da Segunda Guerra Mundial.
+                                        </p>
+                                         
+                                        
+                                    </div>
+                                </div>
+                                <div class="info info2">
+                                    <img src="images/icon/info.png" alt="info">
+                                    <div class="mais-info">
+                                        <h2>
+                                            Gottfried Wilhelm Von Leibniz 
+                                        </h2>
+                                        <img src="images/1leibniz.jpg" alt="leibniz">
+                                        <p>
+                                            Nasceu na Alemanha a 1 de julho de 1646, na cidade de Leipzig. Foi um matemático extraordinário.
+                                        </p>
+                                        <p>
+                                            A Liebniz é atribuída a criação do termo/nome "função" no ano de 1694, usando esta terminologia para descrever uma quantidade relacionada com uma curva. É-lhe igualmente atribuído em parceria com Newton o desenvolvimento do cálculo moderno, em particular, o desenvolvimento do Integral e da Regra do Produto. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="lugares">
+                    <div class="cont_lugares">
+                        <div class="image-section9">
+                            <div class="fundo">
+                                <div class="titulo-animado">
+                                   MURO DE BERLIM
+                                </div>
+                                <div class="info">
+                                    <img src="images/icon/info.png" alt="info">
+                                    <div class="mais-info">
+                                        <p>
+                                           Ao terminar a II Guerra Mundial, depois da divisão da Alemanha, Berlim também ficou dividida em quatro setores de ocupação: soviético, americano, francês e inglês. As péssimas relações entre os comunistas e os aliados foram crescendo até chegar ao ponto de surgirem duas moedas, dois ideais políticos e, finalmente, duas alemanhas.
+                                        </p>
+                                        <p>
+                                            A construção do Muro de Berlim e especialmente sua queda fizeram parte dos momentos mais importantes da história do século XX. Este muro dividiu Berlim em duas partes durante 28 anos, separando famílias e amigos. 
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="info info2">
+                                    <img src="images/icon/info.png" alt="info">
+                                    <div class="mais-info">
+                                        
+                                        
+                                        <p>
+                                            A queda do muro foi motivada pela abertura das fronteiras entre a Áustria e a Hungria em maio de 1989, já que cada vez mais alemães viajavam à Hungria para pedir asilo nas diferentes embaixadas da República Federal Alemã. Esse fato motivou enormes manifestações na Alexanderplatz, o que fez com que, no dia 9 de novembro de 1989, o governo da RDA afirmasse que a passagem para o lado oeste estava permitida.
+                                        </p>
+                                        <p>
+                                            No dia seguinte foram abertas as primeiras brechas no muro e começou a contagem regressiva para o final dos seus dias.
+                                        </p>
+                                        <p>
+                                            Depois de terem sido liberados, famílias e amigos puderam voltar a se ver depois de 28 anos de separação forçada. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <footer id="rodape">
+                <div class="main-container">
+                    <div class="footer-box">
+                        <div class="footer-txt-cont">
+                            <h1>Informações ao viajante</h1>
+                            <ul class="list-footes">
+                                <li class="list-cont">
+                                    <span class="destaque">Língua:</span> Alemão 
+                                </li>
+                                <li class="list-cont">
+                                    <span class="destaque">Moeda:</span> Euro 
+                                </li>
+                                <li class="list-cont">
+                                    <span class="destaque">Como ligar para o Brasil:</span> 0800-080-00-55 
+                                </li>
+                                <li class="list-cont">
+                                    <span class="destaque">Visto:</span> Não é necessário. 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-box">
+                        <div class="footer-txt-cont">
+                            <h1>Embaixada</h1>
+                            <ul class="list-footes">
+                                <li class="list-cont">
+                                    <span class="destaque">Embaixada oficial no Brasil: </span>
+                                </li>
+                                <li class="list-cont">
+                                    SES, Avenida das Nações, Qd. 807, lote 25, Brasília - DF 
+                                </li>
+                                <li class="list-cont">
+                                    (61) 3442-7000; 3442-7079 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-box">
+                        <div class="footer-txt-cont">
+                            <img src="images/alemao.png" alt="alemao">
+                        </div>
+                    </div>
+                </div>
+                
+            </footer>
+            <div class="direitos-autorais">
+                <div class="main-container">
+                    <div class="assinatura">
+                        Todos os direitos reservados por Pedro Medeiros.
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </body>
+</html>

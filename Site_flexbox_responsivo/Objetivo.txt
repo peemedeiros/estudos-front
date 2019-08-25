@@ -1,0 +1,2 @@
+Elaborei esse modelo de layout utilizando as propriedades flex
+do CSS3, para praticar noções de responsividade.

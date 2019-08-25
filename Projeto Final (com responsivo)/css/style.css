@@ -1,0 +1,857 @@
+/*********** SEÇÃO DO MENU****************/
+#caixa_menu{
+    width: 100%;
+    height: 80px;
+    background-color: #252525;
+    
+}
+#caixa_menu .conteudo{
+    background-color: #252525;
+}
+.logo{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    margin-top: 3px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+#menu{
+    height: inherit;
+    width: 750px;
+    background-color: #252525;
+    float: right;
+}
+#menu_mobile{
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+#menu_mobile_corpo{
+    width: 200px;
+    height: 150px;
+    background-color: #252525; 
+    list-style: none;
+    position: absolute;
+    display: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#menu_mobile_corpo a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu_mobile_item{
+    width: 200px;
+    height: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #252525; 
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 3px;
+    border:solid 1px #000000;
+    box-sizing: border-box;
+}
+.menu_itens {
+    width: 150px;
+    height: inherit;
+    float: left;
+    background-color: #252525;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color:#ffffff;
+    padding-top: 28px;
+    box-sizing: border-box;
+    
+}
+.menu_itens:hover{
+    color:#777777;
+    transition:.5s;
+    cursor: pointer;
+}
+/*************SEÇÃO DO GERAL*****************/
+#seta{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: fixed;
+    bottom:50px;
+    right: 20px;
+    display: none;
+}
+#seta a img{
+    width: 50px;
+    height: 50px;
+}
+#geral {
+    width: 100%;
+    height: 1000px;
+    background-color: #6e43c2;
+    padding-top:50px;
+    box-sizing: border-box;
+}
+.geral_caixa,.geral_caixa2{
+    width: 550px;
+    height: 600px;
+    margin-left: 40px;
+    margin-top: 155px;
+    float: left;
+}
+.geral_caixa2{
+    width: 500px;
+    float: right;
+    margin-right: 40px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.geral_caixa2 img{
+    width: 350px;
+    height: inherit;
+    transition: 1s;
+}
+.geral_caixa2 img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+.botao{
+    width: 350px;
+    height: 50px;
+    background-color:#02B875;
+    border-color: #02B875;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 9px;
+    box-sizing: border-box;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+.botao:hover{
+    background-color:#02925d;
+    cursor: pointer;
+    transition: 1s;
+}
+/*********************SEÇÃO SOBRE*******************/
+
+#sobre{
+    width: 100%;
+    height: 1200px;
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+#sobre h1{
+    text-align: center;
+    color:#000000;
+}
+#sobre h2{
+    width: 850px;
+    height: 200px;
+    color: #000000;
+    text-align: center;
+}
+.sobre_produtos{
+    width: 400px;
+    height: 750px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.sobre_produtos img{
+    width: 399px;
+    height: 500px;
+    margin-bottom: 30px;
+    border:2px solid #ededed;
+    border-radius: 8px;
+}
+.sobre_produtos img:hover{
+    transform: translateY(-10px);
+    transition: 0.2s;
+    box-shadow: 0px 5px 15px #e5e6e8;
+    cursor:pointer;
+}
+.sobre_texto{
+    width: 400px;
+    height: 250px;
+    float: left;
+}
+#sobre .sobre_texto p{
+    width: inherit;
+    height: 150px;
+    font-size:18px;
+    text-align: left;
+    color: #333333;
+    padding-left: 10px;
+}
+.saiba_mais:hover{
+    color: #1559d2;
+    cursor: pointer;
+}
+/****************Ferramentas************/
+#ferramentas{
+    width: 100%;
+    height: 900px;
+}
+#ferramentas h1 {
+    text-align: center;
+    color:#999999;
+}
+.caixa_texto,.caixa_imagem{
+    width: 650px;
+    height: 800px;
+    margin-left: 40px;
+    float:left;
+}
+.caixa_texto{
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.caixa_imagem{
+    width: 550px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 40px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.caixa_imagem img{
+    width: inherit;
+    height: 700px;
+}
+.titulo_grande{
+    text-align: left;
+    width: inherit;
+    height: auto;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+#ferramentas p, #responsivo p {
+    color:#333333;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    box-sizing: border-box
+}
+#ferramentas .saiba_mais{
+    width: 200px;
+    font-size: 20px;
+    box-sizing: border-box;  
+}
+/*******Responsivo**********/
+#responsivo {
+    width: 100%;
+    height: 900px;
+    
+}
+#responsivo .caixa_imagem{
+    height: inherit;
+    float: left;
+    width: 750px;
+    padding: 0px;
+}
+#responsivo .caixa_texto{
+    width:500px;
+    height: inherit;
+}
+#responsivo .caixa_imagem img{
+    height: inherit;
+}
+/**********Serviços**********/
+#servicos{
+    width: 100%;
+    height: 460px;
+    background-color:#6e43c2;
+    padding-top: 10px;
+}
+#servicos h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.servicos_icone{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.servicos_icone img{
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;  
+}
+.servicos_icone:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 7px 10px;
+    cursor:pointer;
+}
+/*filosofia da empresa*/
+#filosofia{
+    width: 100%;
+    height: 900px;
+    background-color: #f8f9fa;
+    padding-top: 50px;
+}
+#filosofia h1, #filosofia p{
+    color: #000000;
+    text-align: center;
+}
+.filosofia_caixa{
+    width: 320px;
+    height: 500px;
+    float:left;
+    margin-left: 80px;
+    margin-right: 65px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+#filosofia p{
+    line-height: 2;
+    margin-bottom: 30px;
+}
+.filosofia_caixa h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.filosofia_icone{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+.filosofia_icone img{
+    width: inherit;
+    height: inherit;
+}
+/*decoração*/
+#decoracao{
+    width: 100%;
+    background-color: #f8f9fa;
+}
+.triangulo{
+    width: 0px;
+    border:solid 25px;
+    border-top-color:#f8f9fa;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    position: absolute;
+    margin-left: 688px;
+}
+/*pré rodapé*/
+#pre_rodape{
+    width: 100%;
+    height: 300px;
+    background-color:#6e43c2;
+    padding-top: 40px;
+}
+#pre_rodape h1{
+    text-align: center;
+    margin-bottom: 65px;
+}
+/*rodapé*/
+#rodape{
+    width: 100%;
+    height: 450px;
+    background-color: #252525;
+    padding-top: 70px;
+}
+#rodape .logo{
+    width: 250px;
+    height: 300px;
+    float: left;
+}
+#rodape p {
+    text-align: left;
+    padding-left: 5px;
+}
+#rodape h2 {
+    text-align: left;
+    padding-left: 0px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+.rodape_caixa{
+    width: 1100px;
+    height: 430px;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.rodape_nav{
+    width: 250px;
+    height: 300px;
+    float:left;
+    margin-right: 20px;
+}
+.rodape_nav h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:#ffffff;
+    
+}
+.rodape_lista{
+    width: inherit;
+    min-height: 40px;
+    max-height: 400px;
+    height:auto;
+    list-style: none;
+    box-sizing: border-box;
+}
+.lista_item{
+    width: inherit;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    color:#999999;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.lista_item:hover{
+    color: #ffffff;
+    cursor:pointer;
+}
+/*RESPONSIVIDADE*/
+
+@media only screen and (min-width:1215px) and (max-width:1300px){
+    
+    .conteudo,
+    .caixa_menu{
+        max-width:1200px;
+    }
+    .sobre_produtos,
+    .sobre_produtos img,
+    .sobre_texto{
+        width:360px;
+    }
+    .sobre_produtos{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #ferramentas .caixa_texto,
+    #ferramentas .caixa_imagem{
+        width: 500px;
+    }
+    #responsivo .caixa_imagem{
+        width: 600px
+    }
+    #servicos{
+        height: 420px;
+    }
+    #servicos .conteudo{
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    #servicos .servicos_icone,
+    .servicos img{
+        width: 150px;
+        height: 150PX;
+        border-radius: 75px;
+    }
+    .filosofia_caixa{
+        width: 250px;
+    }
+    #filosofia{
+        height: 1000px;    
+    }
+    .triangulo{
+        margin-left: 585px;
+    }
+    .rodape_caixa{
+        width: 960px;
+    }
+    .rodape_nav{
+        width: 215px;
+        height: 270px;
+    }
+}
+@media only screen and (min-width:1060px) and (max-width:1214px){
+    .conteudo,
+    .caixa_menu{
+        max-width:1000px;
+    }
+    .geral_caixa{
+        width: 450px;
+    }
+    .geral_caixa2{
+        width: 300px;
+        margin-left: 20px;
+    }
+    .geral_caixa2 img{
+        width:  inherit;
+    }
+    .sobre_produtos,
+    .sobre_produtos img,
+    .sobre_texto{
+        width:280px;
+    }
+    .sobre_produtos{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #ferramentas .caixa_texto,
+    #ferramentas .caixa_imagem{
+        width: 450px;
+    }
+    #responsivo .caixa_imagem{
+        width: 500px
+    }
+    #responsivo .caixa_texto{
+        width: 400px;
+    }
+    #servicos{
+        height: 365px;
+    }
+    #servicos .conteudo{
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    #servicos .servicos_icone,
+    .servicos img{
+        width: 110px;
+        height: 110PX;
+        border-radius: 55px;
+    }
+    .filosofia_caixa{
+        width: 250px;
+        margin-left:40px;
+        margin-right: 40px;
+    }
+    #filosofia{
+        height: 1000px;    
+    }
+    .triangulo{
+        margin-left: 485px;
+    }
+    #rodape .logo{
+        display: none;
+    }
+    .rodape_caixa{
+        width: 960px;
+    }
+    .rodape_nav{
+        width: 215px;
+        height: 270px;
+    }
+}
+@media only screen and (min-width:772px) and (max-width:1059px){
+    .conteudo{
+        max-width: 920px;
+    }
+    #caixa_menu .logo{
+        display:none;
+    }
+    #menu{
+        float: none;
+    }
+    #geral{
+        height: 570px;
+    }
+    .geral_caixa{
+        float: none;
+        margin: auto;
+        width: 772px;
+    }
+    .geral_caixa2{
+        display: none;
+        
+    }
+    #sobre{
+        height: 1600px;
+    }
+    #sobre h1{
+        font-size: 24px;
+       
+    }
+    #sobre h2{
+        font-size: 21px;
+        
+    }
+    .sobre_produtos{
+        width:870px;
+        height: 400px;
+        float: none;
+    }
+    .sobre_produtos img {
+        width: 350px;
+        height: 350px;
+        margin-right: 50px;
+    }
+    .sobre_texto .titulo_de_conteudo{
+        width: 370px;
+        height: 30px;
+        margin: 0px;
+    }
+    .sobre_texto{
+        float:right;
+    }
+    .sobre_produtos{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #ferramentas{
+        height: 600px;
+    }
+    #ferramentas .caixa_texto{
+        width: 870px;
+        height: 600px;
+        padding-top: 75px;
+    }
+    #ferramentas .caixa_imagem{
+        display: none;
+    }
+    #ferramentas p {
+        width: 850px;
+        padding-right: 20px;
+    }
+    #responsivo{
+        height: 700px;
+    }
+    #responsivo .caixa_imagem{
+        display: none;
+    }
+    #responsivo .caixa_texto{
+        width: 870px;
+        height: 600px;
+        padding-top:50px; 
+    }
+    #servicos{
+        height: 200px;
+    }
+    #servicos h1{
+        margin-bottom: 20px;
+    }
+    #servicos .conteudo{
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    #servicos .servicos_icone,
+    .servicos img{
+        width: 80px;
+        height: 80PX;
+        border-radius: 40px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+    .filosofia_caixa{
+        width: 250px;
+        margin-left:28px;
+        margin-right: 28px;
+    }
+    #filosofia{
+        height: 1000px;    
+    }
+    .filosofia_texto{
+        width: 870px;
+    }
+    .triangulo{
+        margin-left: 440px;
+    }
+    #rodape .logo{
+        display: none;
+    }
+    .rodape_caixa{
+        width: 920px;
+    }
+    .rodape_nav{
+        width: 205px;
+        height: 270px;
+    }
+}
+@media only screen and (max-width:772px){
+    
+    .conteudo{
+        max-width: 375px;
+    }
+    #menu{
+        width: 100%;
+    }
+    .menu_itens{
+        display: none;
+    }
+    #caixa_menu .logo{
+        display:none;
+    }
+    #menu{
+        float: none;
+    }
+    #menu_mobile{
+        display: block;
+        padding-top: 8px;
+    }
+    .menu_mobile_item{
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    #geral{
+        height: 940px;
+    }
+    .geral_caixa{
+        float: none;
+        margin: auto;
+        width: 375px;
+    }
+    .geral_caixa2{
+        display: none;
+        
+    }
+    #sobre{
+        height: 1600px;
+    }
+    #sobre h1{
+        font-size: 24px;
+       
+    }
+    #sobre h2{
+        width: 375px;
+        font-size: 21px;
+        
+    }
+    .sobre_produtos{
+        width:375px;
+        height: 600px;
+        
+    }
+    .sobre_produtos img {
+        width: 350px;
+        height: 350px;
+        margin-right: 50px;
+    }
+    .sobre_texto{
+        
+    }
+    .sobre_produtos{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #ferramentas{
+        height: 1300px;
+    }
+    #ferramentas .caixa_texto{
+        width: 375px;
+        height: 600px;
+        padding-top: 75px;
+    }
+    #ferramentas .caixa_texto .titulo_grande{
+        width: 375px;
+        font-size: 32px;
+    }
+    #ferramentas .caixa_imagem{
+        display: none;
+    }
+    #responsivo{
+        height: 700px;
+    }
+    #responsivo .caixa_imagem{
+        display: none;
+    }
+    #responsivo .caixa_texto{
+        width: 375px;
+        height: 600px;
+        padding-top:50px; 
+    }
+    #responsivo .caixa_texto .titulo_grande{
+        width: 375px;
+        font-size: 32px;
+    }
+    #servicos{
+        height: 840px;
+    }
+    #servicos h1{
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+    #servicos .conteudo{
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    #servicos .servicos_icone,
+    .servicos img{
+        width: 120px;
+        height: 120PX;
+        border-radius: 60px;
+        margin: auto;
+        margin-bottom: 20px;
+        float: none;
+    }
+    #filosofia{
+        height: 2200px;
+    }
+    #filosofia h1 {
+        padding-left: 0px;
+    }
+    #filosofia p {
+        width: 375px;
+    }
+    .filosofia_caixa{
+        width: 375px;
+        margin: auto;
+    }
+    .triangulo{
+        margin-left: 170px;
+    }
+    #pre_rodape{
+        height: 320px;
+    }
+    #pre_rodape h1{
+        font-size: 24px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    #rodape{
+        height: 1290px;
+    }
+    #rodape .logo{
+        display: none;
+    }
+    .rodape_caixa{
+        width: 375px;
+        float: none;
+        padding-left: 0px;
+    }
+    .rodape_nav{
+        width: 350px;
+        height: 270px;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

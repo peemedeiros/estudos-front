@@ -1,0 +1,580 @@
+h1, h2, h3, h4, h5, h6, p, ul, li, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: verdana;
+}
+body{
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+a{
+    color:#ffffff;
+    text-decoration:none;
+}
+.background{
+    background-color: rgba(0,0,0,.9);
+}
+#seta{
+    width: 100px;
+    height: 100px;
+    background-color:rgba(255,255,255,0.8);
+    position: fixed;
+    right:0px;
+    bottom: 300px;
+    margin-right: 10px;
+    border-radius:50px;
+}
+#seta
+
+img {
+    width:70px;
+    height: 70px;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+#cabecalho{
+    width:1500px;
+    height:300px;
+    background:url("../images/Frankfurt2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    
+}
+.container_head{
+    width: inherit;
+    height: 250px;
+    background-color: rgba(0,0,0,.5);
+    
+}
+#logo{
+    width: 250px;
+    height: 250px;
+    margin-left: 115px;
+    float: left
+}
+.titulo_cabecalho{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:80px;
+    box-sizing: border-box;
+    font-family: verdana;
+    font-size: 60px;
+    letter-spacing: 7px;
+    color:#ffffff;
+}
+#menu_cont{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.8);
+    
+}
+.menu{
+    list-style: none;
+    width:800px;
+    height: inherit;
+    
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.menu_itens{
+
+    width: 300px;
+    height: inherit;
+    text-align: center; 
+    line-height: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color:#ffffff; 
+}
+.link{
+    width: inherit;
+    height: inherit;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.menu_itens:hover{
+    background-color: rgba(0,0,0,1);
+    transition: 1s;
+    cursor:pointer;
+}
+.submenu {
+	width: 266px;
+	background-color: #000000;
+	position: absolute;
+	display: none;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.submenuitem {
+	width: inherit;
+	height: 40px;
+    line-height: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: solid 1px #ffffff;
+    
+}
+.submenuitem:hover{
+    background-color: #999999;
+    transition: 1s;
+    color:#000000;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.flutuante{
+	color: #000000;
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	border-radius: 50px;
+    margin-right: 10px;
+    background-color: #a9d18a;
+}
+.flutuante
+img{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.flutuante
+h3{
+    width: inherit;
+    height: 0px;
+    margin-left: 45px;
+    margin-top: 10px;
+    display: none;
+    font-size: 25px;
+}
+.flutuante:hover{
+    width: 400px;
+    height: 250px;
+    background-color: #a9d18a;
+}
+.flutuante:hover img{
+    display: none;
+}
+.flutuante:hover h3{
+    display: block;
+}
+.chat{
+    width: inherit;
+    height: 300px;
+    margin-top: 50px;
+}
+.textarea{
+    width: 390px;
+    height: 135px;
+    resize: none;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.botao{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+
+}
+.main-container{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+}
+#geral_turismo {
+    width: 1500px;
+    height: 2980px;
+    margin-bottom: 50px;
+}
+#geral_turismo{
+    height: 1650px;
+}
+#geral_turismo2{
+    height: 900px;
+}
+.ballbg {
+    width: inherit;
+    height: 80px;
+    background: url("../images/ball.png");
+    background-size: contain;
+    margin-bottom: 100px;
+}
+.copa-img{
+    width: inherit;
+    height: 645px;
+    margin-bottom: 20px;
+}
+.copa-img
+img{
+    margin-left: 284px;
+    border-radius: 50px;
+    width: 950px;
+    height: 555px;
+}
+.placar{
+    width: inherit;
+    height: 280px;
+    margin-bottom: 20px;
+}
+.alemanha-flag{
+    width:450px;
+    height: inherit;
+    float: left;
+}
+.alemanha-flag img{
+    width: inherit;
+    height: inherit;
+    border-radius: 35px;
+}
+.alemana-result{
+    width: 200;
+    height: inherit;
+    float: left;
+    text-align: center;
+}
+.alemana-result h1{
+    color:#000000;
+    font-size: 215px;
+}
+.versus{
+    width: 200px;
+    height: inherit;
+    float: left;
+    text-align: center;
+    font-size: 144px;
+}
+#costumes-alemanha{
+    width: 1500px;
+    height: 1000px;
+    padding-top: 50px;  
+}
+.copas-do-mundo,.copas-do-mundo1{
+    width: 100%;
+    min-width: 1500px;
+    height: auto;
+    margin-bottom: 300px;
+}
+.copas-do-mundo1{
+    height:auto;
+    margin-bottom: 200px;
+}
+.copas-do-mundo1 .cont_lugares{
+    height: 1200px;
+    min-height: 1200px;
+}
+#geral_turismo{
+    margin-bottom: 130px;
+}
+.titulo{
+    width:1500px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+}
+.titulo h1{
+    text-transform:uppercase;
+    font-size:50px;
+    color:#ffffff;
+    text-align: center;
+}
+.corpo_origem,.corpo_uni {
+    width: 1500px;
+    height: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:50px;
+    
+}
+.corpo_origem{
+    height: 800px;
+}
+.bemvindoimg{
+    width:700px;
+    height: 730px;
+/*    background-color:rgba(0,0,0,.8);*/
+    margin:10px;
+    float:left;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.bemvindoimg{
+    background: url("../images/citywallpaperhd.com-390.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+}
+.textos, .costumes-list ,
+.copa-texto{
+    color:#ffffff;
+    font-size:25px;
+    line-height: 1.5; 
+    margin-bottom: 20px;
+}
+.copa-texto{
+    color:#000000;
+    font-size: 40px;
+}
+.corpo_turismo{
+    height: 680px;
+}
+.turismo_cont{
+    height: 575px;
+    margin: 10px;
+}
+.conteudo1,.cultura-cerveijeira{
+    width:700px;
+    height: 600px;
+    float: left;
+}
+.cultura-cerveijeira{
+    height: 900px;
+    margin-left: 30px;
+        
+}
+.conteudo1 img{
+    width: inherit;
+    height: 600px;
+    
+}
+.cultura-cerveijeira h2 {
+    color:#ffffff;
+    font-size:40px;
+    text-align: center;
+}
+.prost{
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    margin-left: 120px;
+}
+.cont_lugares{
+    min-width: 1500px;
+    height: auto;
+    margin: auto;
+    background-color: #d7f9b6;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+#turism-img{
+    width: 500px;
+    height: 500px;
+    margin-left: 90px;
+}
+.subtitulo{
+    color:#ffffff;
+    size:21px;
+    font-weight:bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.image-section{
+    min-width: 1500px;
+    height: 1200px;
+    margin-bottom: 100px;
+    background:url("../images/futbol.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.image-section2{
+    background: url("../images/frankfurt-turismo.jpg");
+}
+.image-section3{
+    background: url("../images/dresden.jpg");
+}
+.image-section4{
+    background: url("../images/heidelberg.jpg");
+}
+.image-section5 {
+    background: url("../images/nuremberg-wallpaper-1920x1200.jpg");
+    background-position: center;
+}
+.image-section6{
+    background: url("../images/colonia.jpg");
+    background-position: center;
+}
+.image-section7{
+    background:url("../images/baviera.jpg");
+}
+.image-section8{
+   background-color:#ffffff;
+}
+.image-section9 {
+    background:url("../images/turismo5.jpg");
+    background-position: bottom;
+}
+.fundo{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(255,255,255,0.7);
+    transition: 1s;
+}
+.fundo:hover{
+    transition: 1s;
+    background-color: rgba(255,255,255,0);
+}
+.titulo-animado{
+    width: inherit;
+    height: 135px;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #358235;
+    margin-bottom: 40px;
+    color:#ffffff;
+}
+.info,info2{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color:#910b0b;
+    float: left;
+}
+.info2{
+    background-color:#3e9b1b;
+}
+.info img{
+    margin: 15px;
+    width: 70px;
+    height: 70px;
+}
+.mais-info{
+    width: 300px;
+    height: 550px;
+    background-color:#910b0b;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    text-align: justify;
+    display: none;
+    padding:20px;
+    box-sizing: border-box;
+    color:#ffffff;
+    font-size: 20px;
+}
+.info2 .mais-info{
+    background-color:#3e9b1b;
+    height: 720px;
+    text-align: justify;
+}
+.info2 .mais-info h2{
+    color:#ffffff;
+    font-size:22px;
+    text-align: center;
+}
+.info2 .mais-info img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fundo .info:hover .mais-info{
+    display: block;
+    transition: 1s;
+}
+.costumes-img{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.costumes-img img{
+    width: inherit;
+    height: inherit;
+}
+.costumes-list{
+    margin-left: 50px;
+}
+.costumes-list li {
+    margin-bottom: 20px;
+}
+#rodape{
+    width: inherit;
+    height: 500px;
+    background-color: #323944;
+}
+.footer-box{
+    width: 500px;
+    height: 500px;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.footer-txt-cont{
+    width: 450px;
+    height: 480px;
+    margin: auto;
+}
+
+.footer-txt-cont img{
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
+}
+ .title-footer {
+    text-align: center;
+    color:#000000;
+    width: auto;
+    height: 70px;
+    background-color: #abb0bc;
+    border-radius: 20px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+.list-footes{
+    width: 400px;
+    height: 400px;
+    margin-left: 26px;
+    list-style: none;
+    background-color: #d7d8db;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 40px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.list-cont{
+    height: 98px;
+    font-size: 22px;
+    color:#000000;
+}
+.texto-footer{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 22px;
+}
+.direitos-autorais{
+    width: inherit;
+    height: 50px;
+    background-color: #d7d8db;
+    float: 
+}
+.destaque{
+    font-weight: bold;
+}
+.assinatura{
+    width: inherit;
+    height: inherit;
+    padding-top: 15px;
+    margin-left: 10px;
+}
